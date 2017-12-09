@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "347318341187",
+    "firebase_url": "https://allnearyou-1512374762833.firebaseio.com",
+    "project_id": "allnearyou-1512374762833",
+    "storage_bucket": "allnearyou-1512374762833.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:347318341187:android:58f5a0bed18060ce",
+        "android_client_info": {
+          "package_name": "berkea.allnearyou"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "347318341187-t16jjhege1t4hmfhaf0jfg16rl9aeujk.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "berkea.allnearyou",
+            "certificate_hash": "589851ba8b5edcacf4c65e3fad4302ede7f56aaf"
+          }
+        },
+        {
+          "client_id": "347318341187-gb9fl790qn7v55lra08f7t5j101qkrrr.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "347318341187-sdctctm5kr1sjm25kojplpimrtpc1q0o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoiqLgEqfRCDAD4J7-y7nmffwNPLYvKJQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "347318341187-gb9fl790qn7v55lra08f7t5j101qkrrr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
