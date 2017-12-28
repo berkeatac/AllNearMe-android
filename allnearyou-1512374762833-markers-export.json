@@ -1,0 +1,38 @@
+{
+  "Kadıköy" : {
+    "latitude" : 40.988962,
+    "longitude" : 29.025087,
+    "name" : "Kadıköy",
+    "uri" : "spotify:user:1297004711:playlist:6r7GB23aY5FuCNslqo80jB",
+    "user" : "Berke"
+  },
+  "Beşiktaş" : {
+    "latitude" : 41.042592,
+    "longitude" : 29.004120,
+    "name" : "Beşiktaş",
+    "uri" : "spotify:user:1297004711:playlist:1fwokp709RN0VuQj3sUydS",
+    "user" : "Berke"
+  },
+  "Caddebostan" : {
+    "latitude" : 40.962876,
+    "longitude" : 29.061374,
+    "name" : "Caddebostan",
+    "uri" : "spotify:user:1297004711:playlist:6POwYyfMQ8RlUlrFUqoIoG",
+    "user" : "Berke"
+  },
+  "Adalar" : {
+    "latitude" : 40.858602,
+    "longitude" : 29.120130,
+    "name" : "Adalar",
+    "uri" : "spotify:user:1297004711:playlist:4XpPPftNxXZZkXT0THsFaB",
+    "user" : "Berke"
+  },
+  "Karaköy" : {
+    "latitude" : 41.024586,
+    "longitude" : 28.977700,
+    "name" : "Karaköy",
+    "uri" : "spotify:user:1297004711:playlist:1UZ2DcaxgQuX7U83bPkcvs",
+    "user" : "Berke"
+  }
+
+}

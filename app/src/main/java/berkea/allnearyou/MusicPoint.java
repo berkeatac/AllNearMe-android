@@ -7,36 +7,9 @@ import com.google.firebase.database.IgnoreExtraProperties;
  */
 
 @IgnoreExtraProperties
-public class MusicPoint {
-    double latitude;
-    double longitude;
-    String name;
+public class MusicPoint extends Point{
     String uri;
     String user;
-
-    public double getLatitude() {
-        return latitude;
-    }
-
-    public void setLatitude(double latitude) {
-        this.latitude = latitude;
-    }
-
-    public double getLongitude() {
-        return longitude;
-    }
-
-    public void setLongitude(double longitude) {
-        this.longitude = longitude;
-    }
-
-    public String getName() {
-        return name;
-    }
-
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getUser() {
         return user;
@@ -55,14 +28,12 @@ public class MusicPoint {
     }
 
     public MusicPoint(double latitude, double longitude, String name, String uri, String user) {
-        this.name = name;
-        this.latitude = latitude;
-        this.longitude = longitude;
+        super(latitude, longitude, name);
         this.user = user;
         this.uri = uri;
     }
 
     public MusicPoint(){
-
+        super();
     }
 }

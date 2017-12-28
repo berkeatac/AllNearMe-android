@@ -44,13 +44,6 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         SupportMapFragment mapFragment = (SupportMapFragment) getSupportFragmentManager()
                 .findFragmentById(map);
         mapFragment.getMapAsync(this);
-
-        /*** Firebase'e MP objesini yazdırma kısmı
-         MusicPoint mp = new MusicPoint("berkenin listi", new LatLng(60.0, 60.0), "user berke", "spoti uri");
-         //Firebase Database usage
-         DatabaseReference mDatabase = FirebaseDatabase.getInstance().getReference();
-         mDatabase.child("markers").child(mp.getName()).setValue(mp);
-         */
     }
 
     @Override
@@ -71,25 +64,8 @@ public class MainActivity extends AppCompatActivity implements OnMapReadyCallbac
         gMap.setMyLocationEnabled(true);
         gMap.getUiSettings().setRotateGesturesEnabled(false);
 
-
-        /*** GOKCEADA
-        // Add a marker in Gokceada,
-        // and move the map's camera to the same location.
-        LatLng gokceada = new LatLng(40.166912, 25.839558);
-        googleMap.addMarker(new MarkerOptions().position(gokceada)
-                .title("Spotify Playlist"));
-        googleMap.moveCamera(CameraUpdateFactory.newLatLng(gokceada));
-        */
-
-
-
         //set map type, initial zoom and bounds of map segment shown
         googleMap.setMapType(GoogleMap.MAP_TYPE_SATELLITE);
-
-        /*** THIS IS FOR GOKCEADA
-        googleMap.setMinZoomPreference((float)10.3);
-        googleMap.setLatLngBoundsForCameraTarget(new LatLngBounds(new LatLng(40.064221, 25.623931), new LatLng(40.264311, 26.054574)));
-        */
 
         googleMap.moveCamera(CameraUpdateFactory.newLatLng(new LatLng(40.988962, 29.025087)));
         googleMap.setMinZoomPreference((float)11.5);
